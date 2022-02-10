@@ -12,8 +12,6 @@ spec:
         app: trigger-demo
     spec:
       containers:
-      serviceAccountName: tekton-triggers-example-sa
-      serviceAccount: tekton-triggers-example-sa
       - name: tekton-pod
         image: quay.io/hazemhemied/tekton-lab-app
         ports:
